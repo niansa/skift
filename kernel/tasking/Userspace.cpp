@@ -34,5 +34,5 @@ void userspace_initialize()
     int init_exit_value = 0;
     process_wait(init_process, &init_exit_value);
 
-    logger_fatal("Init has return with code %d!", init_exit_value);
+    logger_fatal("Init has returned with code %d!", init_exit_value);
 }
